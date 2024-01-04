@@ -59,9 +59,3 @@ if pulp.LpStatus[lp_problem.status] == "Optimal":
     print(f"Optimal value = {pulp.value(lp_problem.objective)}")
 else:
     print("Optimization failed.")
-
-'''Here we take a example of simplex method
-   Zmax=X1+3X2;
-   constraint1:3X1+6X2 <= 8;
-   constraint2:5X1+2X2 <=10
-   where X1 and X2 are >=0'''
